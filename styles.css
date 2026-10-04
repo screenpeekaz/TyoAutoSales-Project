@@ -138,3 +138,34 @@ footer a {
         width: 95%;
     }
 }
+
+/* Contact page form */
+form {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 15px;
+    max-width: 700px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+    width: 120px;
+    background-color: #1f2937;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
