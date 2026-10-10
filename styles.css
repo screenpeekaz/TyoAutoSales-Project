@@ -169,3 +169,21 @@ input[type="submit"] {
         flex-direction: column;
     }
 }
+
+
+/* Final project additions */
+.video-section {
+    text-align: center;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+ol {
+    line-height: 1.7;
+}
